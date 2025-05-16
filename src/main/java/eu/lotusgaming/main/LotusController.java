@@ -48,6 +48,7 @@ public class LotusController {
 
 	//Gamestate
 	private static Gamestate gamestate;
+	private static String currentBuildTopic;
 
 	public boolean initLanguageSystem() {
 		try {
@@ -481,6 +482,13 @@ public class LotusController {
 	public static void setGamestate(Gamestate state) {
 		gamestate = state;
 	}
+	
+	public static String getBuildTopic() {
+		return currentBuildTopic;
+	}
+	
+	public static void setBuildTopic(String newBuildTopic) {
+		currentBuildTopic = newBuildTopic;
+	}
 
 }
-

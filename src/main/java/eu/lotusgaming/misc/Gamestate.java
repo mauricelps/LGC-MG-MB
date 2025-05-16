@@ -4,6 +4,7 @@ package eu.lotusgaming.misc;
 public enum Gamestate {
 	AWAITING_PLAYERS,
 	INGAME,
+	VOTING,
 	END
 }
 
